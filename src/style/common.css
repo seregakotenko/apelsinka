@@ -9,14 +9,14 @@
     text-align: center;
     color: #f00;
     font-family: 'Stick', sans-serif;
-    text-shadow: 2px 2px black;
+    text-shadow: -8px -2px black;
 }
 
 @media screen and (max-width: 768px) {
     .h1 {
         margin-top: 0;
         font-size: 50px;
-        text-shadow: -8px -2px black;
+        text-shadow: 2px 2px black;
     }
 
     .h1__part1 {
