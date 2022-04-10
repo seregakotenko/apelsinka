@@ -2,11 +2,32 @@
     background-image: url("../img/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
 }
 .h1 {
     font-size: 80px;
     text-align: center;
     color: #f00;
     font-family: 'Stick', sans-serif;
-    text-shadow: -8px -2px black;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 768px) {
+    .h1 {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+    .h1__part1 {
+        display: block;
+    }
+
+    .h1__divider {
+        display: none;
+    }
+
+    .h1__part2 {
+        display: block;
+        margin-top: 150px;
+    }
 }
